@@ -106,6 +106,14 @@ const app = new Vue({
 				'Ben Fields',			// this is the AUTHOR place in the class
 				'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Copenhagen_Suborbitals_logo.png/220px-Copenhagen_Suborbitals_logo.png',	// this is the IMAGE place in the class
 				'CS is a fully flushed amateur space program.  They launch the most advanced amateur rockets in the world.' // this is the BODY place in the class
+				),
+				
+			new Post(
+				'Masten', 		// this is the TITLE place in the class
+				'http://masten.aero',	// this is the LINK place in the class
+				'Ben Fields',			// this is the AUTHOR place in the class
+				'http://masten.aero/wp-content/uploads/2016/10/cropped-512masten-270x270.jpg',	// this is the IMAGE place in the class
+				'Masten Space Systems builds technology demonstrators for autonomous landing vehicles.' // this is the BODY place in the class
 				)
 		]
 	},

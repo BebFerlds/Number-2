@@ -10,7 +10,7 @@ class Post {
 				title,
 				link,
 				author,
-				img,
+				img, 
 				body){
 					this.title = title;
 					this.link = link;
@@ -72,9 +72,17 @@ const app = new Vue({
 				'Roscosmos',
 				'http://en.roscosmos.ru',
 				'Ben Fields',
-				'https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Roscosmos_logo_en.svg/1200px-Roscosmos_logo_en.svg.png',
+				'http://www.aero-news.net/images/content/aerospace/2006/Russian-Federal-Space-Agency-ROSCOSMOS-Logo-0906a2.jpg',
 				'Roscosmos is the Russian space agency.'
-				)
+				),
+				
+			new Post(
+				'ULA', 		// this is the TITLE place in the class
+				'http://www.ulalaunch.com',	// this is the LINK place in the class
+				'Ben Fields',			// this is the AUTHOR place in the class
+				'https://www.seeklogo.net/wp-content/uploads/2015/09/ula-logo-vector-download.jpg',	// this is the IMAGE place in the class
+				'United Launch Alliance' // this is the BODY place in the class
+				),
 		]
 	},
 

@@ -1,12 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
 		<!-- Page Title: find this on the page tab -->
 		<title>
-		Bootstrap Vue2 App
+		Space Websites
 		</title>
-
 		<meta charset="utf-8">
 	  <meta name="viewport" content="width=device-width, initial-scale=1">
 	  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -26,16 +24,22 @@
 	</head>
 
 	<!-- Visible page content goes below here -->
-	<body>
+	<body background="https://s-media-cache-ak0.pinimg.com/736x/69/ef/d0/69efd003762297e230dc2e64b151a5f0.jpg" >
 			<div class="container-fluid">
 
 
 
-		<h1>Bootstrap Version. Woop woop</h1>
-
+		<h1>
+		Space Websites
+		</h1>
+		<style>
+		body {
+				color:red
+		}
+		</style>
 			<a href="../index.html">
 				<button class="btn btn-default">
-					<span class="fa fa-fw fa-chevron-left"></span> Back Home
+					<span class="fa fa-fw fa-chevron-left" style="color:red"></span> Back Home
 				</button>
 			</a>
 
@@ -48,11 +52,9 @@
 
 		<div class="col-md-4"> <!-- page left -->
 
-			<input class="form-control input-lg" type="text" v-model="keyword" name="search" placeholder="Search..."> <!-- This is IMPORTANT!
+			<input class="form-control input-lg" type="text" v-model="keyword" name="search" placeholder="Search..." style="color:red"> <!-- This is IMPORTANT!
 			It is the binding to the Vue2 model that processes the data -->
-
-			<div class="help-block">Type keyword search terms</div>
-
+			<div class="help-block" style="color:red">Type keyword search terms</div>
 		</div> <!-- end page left -->
 
 		<div class="col-md-8"> <!-- page right -->
@@ -68,7 +70,7 @@
 					</div>
 					<div class="panel-body">
 
-						<img class="img-circle" :src="post.img"> <!-- this is bound to the img slot -->
+						<img class="img-square" :src="post.img" height="200" width="200"><!-- this is bound to the img slot -->
 						<h4><em>by {{post.author}}</em></h4>
 
 						<p>{{post.body}}</p> <!-- this is bound to the body slot -->

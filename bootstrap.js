@@ -98,9 +98,15 @@ const app = new Vue({
 				'Ben Fields',			// this is the AUTHOR place in the class
 				'http://sdv2.uk.w3pcloud.com/SSI/wp-content/uploads/2016/10/Orbital-ATK.jpg',	// this is the IMAGE place in the class
 				'Orbital ATK launches cargo to the ISS, and manufacture rocket and spacecraft components, as well as weapon systems.' // this is the BODY place in the class
+				),
+				
+			new Post(
+				'Copenhagen Suborbitals', 		// this is the TITLE place in the class
+				'https://copenhagensuborbitals.com',	// this is the LINK place in the class
+				'Ben Fields',			// this is the AUTHOR place in the class
+				'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Copenhagen_Suborbitals_logo.png/220px-Copenhagen_Suborbitals_logo.png',	// this is the IMAGE place in the class
+				'CS is a fully flushed amateur space program.  They launch the most advanced amateur rockets in the world.' // this is the BODY place in the class
 				)
-
-
 		]
 	},
 

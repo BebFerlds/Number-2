@@ -3,7 +3,7 @@
 <head>
 		<!-- Page Title: find this on the page tab -->
 		<title>
-		Space Websites
+		Space Website Catalog
 		</title>
 		<meta charset="utf-8">
 	  <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -30,16 +30,16 @@
 
 
 		<h1>
-		Space Websites
+		Space Website Catalog <!-- Title at the top of the page -->
 		</h1>
 		<style>
 		body {
 				color:red
 		}
 		</style>
-			<a href="../index.html">
-				<button class="btn btn-default">
-					<span class="fa fa-fw fa-chevron-left" style="color:red"></span> Back Home
+			<a href="http://www.trump.com/biography/">            <!--LINK IS RIGHT HERE -->
+				<button class="btn btn-default" style="color:red">
+					<span class="fa fa-home" style="color:red"></span> Home
 				</button>
 			</a>
 
@@ -50,7 +50,7 @@
 		<div id="root"><!-- This is IMPORTANT!
 		It is the root (main) container for the Vue2 script -->
 
-		<div class="col-md-4"> <!-- page left -->
+		<div class="col-md-4" > <!-- page left -->
 
 			<input class="form-control input-lg" type="text" v-model="keyword" name="search" placeholder="Search..." style="color:red"> <!-- This is IMPORTANT!
 			It is the binding to the Vue2 model that processes the data -->
@@ -62,7 +62,7 @@
 			<div v-for="post in filterlist"> <!-- This is IMPORTANT!
 			It is the 'for' loop, or machine that cycles over the data -->
 
-				<div class="panel panel-default">
+				<div class="panel panel-default" >
 					<div class="panel-heading">
 
 						<h3><a class="isRed" :href="post.link">{{post.title}}</a></h3>
@@ -90,7 +90,7 @@
 </body>
 
 	<!-- Javascript must be placed here at the bottom of the page
-		so that all the HTML content will be processed fist by the browser
+		so that all the HTML content will be processed first by the browser
 		then procesed by the javascript -->
 
 	<!-- This Vue2 script package is pulled in remotely via a CDN -->

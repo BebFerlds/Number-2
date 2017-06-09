@@ -72,7 +72,7 @@ const app = new Vue({
 				'Roscosmos',
 				'http://en.roscosmos.ru',
 				'Ben Fields',
-				'http://www.aero-news.net/images/content/aerospace/2006/Russian-Federal-Space-Agency-ROSCOSMOS-Logo-0906a2.jpg',
+				'https://rlv.zcache.com/russian_federal_space_agency_roscosmos_Роскосмос_square_sticker-r1a6bb52aa6504ed981c2835f74e16f5e_v9wf3_8byvr_324.jpg',
 				'Roscosmos is the Russian space agency.'
 				),
 				

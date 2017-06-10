@@ -74,7 +74,15 @@
 						<h4><em>by {{post.author}}</em></h4>
 
 						<p>{{post.body}}</p> <!-- this is bound to the body slot -->
-
+						
+						<h3>
+							<a class="isRed" :href="post.link2">
+								<button class="btn btn-default" style="color:red">
+									<span class="fa fa-picture-o" style="color:red"></span> Images
+								</button>
+							</a>
+						</h3>
+						
 					</div>
 
 				</div> <!-- end panel -->
